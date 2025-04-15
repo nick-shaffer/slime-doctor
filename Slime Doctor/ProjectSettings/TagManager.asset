@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - CinemachineTarget
+  - 1
+  - c1
+  - c2
+  - c3
   layers:
   - Default
   - TransparentFX
