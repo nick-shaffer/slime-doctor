@@ -9,6 +9,8 @@ TagManager:
   - c1
   - c2
   - c3
+  - cauldron
+  - slime1
   layers:
   - Default
   - TransparentFX
