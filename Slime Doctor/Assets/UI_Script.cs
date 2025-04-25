@@ -53,6 +53,10 @@ public GameObject i_pic30;
 
     public GameObject cauldron;
 
+    //game objects that will be changed when curing the slimes :)
+
+    public GameObject feverlight;
+
     //ingredients
 
     int r1 = 0;
@@ -448,8 +452,7 @@ public GameObject potion_pic10;
                 {
                     potion = 0;
                     potion_pic1.SetActive(false);
-                    Material slime1_mat = gg.GetComponent<Renderer>().material;
-                    slime1_mat.color = Color.green;
+                    feverlight.SetActive(false);
                     Debug.Log("slime1 cured");
                 }
 
