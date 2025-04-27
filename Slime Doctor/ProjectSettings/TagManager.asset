@@ -20,6 +20,11 @@ TagManager:
   - 8
   - 9
   - 10
+  - slime2
+  - slime7
+  - c19
+  - c20
+  - c21
   layers:
   - Default
   - TransparentFX

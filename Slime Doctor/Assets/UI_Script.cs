@@ -55,6 +55,11 @@ public GameObject i_pic30;
 
     //game objects that will be changed when curing the slimes :)
 
+    public GameObject leftvampireteeth;
+    public GameObject leftvampireteethblood;
+    public GameObject rightvampireteeth;
+    public GameObject rightvampireteethblood;
+
     public GameObject feverlight;
 
     //ingredients
@@ -452,7 +457,11 @@ public GameObject potion_pic10;
                 {
                     potion = 0;
                     potion_pic1.SetActive(false);
-                    feverlight.SetActive(false);
+                    leftvampireteeth.SetActive(false);
+                    rightvampireteeth.SetActive(false);
+                    leftvampireteethblood.SetActive(false);
+                    rightvampireteethblood.SetActive(false);
+
                     Debug.Log("slime1 cured");
                 }
 
@@ -505,8 +514,7 @@ public GameObject potion_pic10;
                 {
                     potion = 0;
                     potion_pic7.SetActive(false);
-                    Material slime7_mat = gg.GetComponent<Renderer>().material;
-                    slime7_mat.color = Color.green;
+                    feverlight.SetActive(false);
                     Debug.Log("slime7 cured");
                 }
 
